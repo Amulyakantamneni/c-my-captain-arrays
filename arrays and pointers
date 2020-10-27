@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int a[5],*p,i;
+cout<<"\n enter 5 elements";
+for(i=o;i<5;i++)
+cin>>a[i];
+p=a;
+for(i=0;i<5;i++)
+{
+cout<<"\n you enetered:"<<*p;
+p++;
+}
+return 0;
+}
+
